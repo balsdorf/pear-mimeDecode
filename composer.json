@@ -1,5 +1,8 @@
 {
   "name": "pear/mail_mimedecode",
   "description": "",
-  "type": "library"
+  "type": "library",
+  "autoload": {
+      "files": ["Mail/mimeDecode.php"]
+  }
 }
